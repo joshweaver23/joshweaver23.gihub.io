@@ -1,0 +1,193 @@
+//colors:
+$blue-grey: #7b8a9d;
+$dark-grey: #333;
+$bright-red: #E84545;
+$dark-blue: #2B2E4A;
+$dark-red: #903749;
+$light-grey: #b3b3b3;
+$off-white: #e6e6e6;
+
+body,html {
+  position: relative;
+  width: 100%;
+  font-size: 1.8vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:focus,
+a:active,
+a:link {
+  outline: none;
+}
+
+body {
+  background-color: $off-white;
+  padding-top: 50px;
+}
+
+.section:target {
+    padding-top: 50px;
+}
+
+#navbar {
+  margin-bottom: 0;
+  padding: 0;
+  height: 40px;
+  background-color: $dark-grey;
+}
+
+.collapsed {
+  background-color: $bright-red;
+}
+
+#brand {
+  font-size: 50px;
+  margin-left: 2px;
+}
+
+.light-blue {
+  color: $bright-red !important;
+  background-color: $dark-grey;
+}
+
+#navbar-1 .navbar-nav > li > a:hover {
+  text-decoration: underline;
+}
+
+#navbar-1 .navbar-nav > .active > a,
+#navbar-1 .navbar-nav > .active > a:hover,
+#navbar-1 .navbar-nav > .active > a:focus,
+#navbar-1 .navbar-nav > .active > a:target {
+  background-color: #222;
+  color: $bright-red !important;
+  font-weight: bold;
+}
+
+.about p {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.project-description {
+  color: $dark-blue;
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.contact p {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+strong {
+  color: $bright-red;
+}
+
+h1 {
+  color: $dark-blue;
+  font-family: 'Droid Serif', serif;
+  font-size: 46px;
+}
+
+h2,h3,h4 {
+  color: $dark-red;
+  font-family: 'Droid Serif', serif;
+}
+
+#about {
+  background-color: $light-grey;
+  padding: 20px 30px;
+}
+
+#portfolio {
+  background-color: $off-white;
+  padding: 15px 30px;
+}
+
+#contact {
+  background-color: $light-grey;
+  padding: 15px 30px;
+}
+
+.navbar {
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+.navbar-brand {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#nav-menu {
+  display: inline-block !important;
+}
+
+.navbar-right > ul > li {
+  float: left;
+}
+
+.navbar-right {
+  background-color: #1a1a1a;
+  text-align: right;
+}
+
+hr {
+  border-color: $dark-blue;
+  border-width: 1px;
+}
+
+.project-padding {
+  padding: 15px;
+}
+
+.project-padding img {
+  border: 1px solid $dark-blue;
+}
+
+.project-hover:hover {
+  -webkit-box-shadow: 0px 0px 10px 6px rgba(189,189,189,1);
+  -moz-box-shadow: 0px 0px 10px 6px rgba(189,189,189,1);
+  box-shadow: 0px 0px 10px 6px rgba(189,189,189,1);
+}
+
+.sub-btn {
+  margin-top: 10px;
+}
+
+.contact-links {
+  margin-top: 30px;
+}
+
+.contact-links a{
+  margin: 0 15px;
+}
+
+.contact-links .fa {
+  color: $dark-red;
+}
+
+.contact-links .fa:hover {
+  color: #4a1c25;
+}
+
+footer {
+  background-color: $dark-grey;
+  padding: 5px;
+}
+
+#footer {
+  margin: 0;
+  padding: 0;
+}
+
+#footer h4 {
+  color: $bright-red;
+}
